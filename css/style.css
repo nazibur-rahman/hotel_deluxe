@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Quicksand', sans-serif;
+}
+@font-face{
+    font-family:ar;
+    src: url(../fonts/ARDECODE.ttf);
+}
+.ardecode{
+        font-family: ar;
+    font-size: 52px;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+button{
+    background-color: #e7cb2c;
+    text-align: centre;
+    border: 1px solid #e7cb2c;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100px;
+    height: 30px;
+}
+.header {
+    min-height: 100px;
+    background-color: #2A2E33;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 35%;
+}
+.logo p{
+    color: gainsboro;
+    float: left;
+    margin-top: 40px;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.logoIMAGE {
+    width: 50%;
+    float: left;
+    margin-top: 35px;
+}
+.logoIMAGE img{
+    width: 100%;
+}
+
+.menu_bar {
+    width: 55%;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+}
+.menu_bar ul {
+    list-style: none;
+}
+.menu_bar ul li{
+           float: left;
+    display: block;
+    height: 20px;
+    padding: 38px 15px;
+}
+.menu_bar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.menu_bar ul li:hover{
+    border-top: 3px solid #FFD700;
+    background-color: black;
+    transform: scale(1);
+}
+
+.banner {
+    height: 400px;
+    background-color: #00CCFF;
+}
+.banner_caption{
+    color: white;
+    text-align: center;
+    margin: 0px 537px;
+    font-size: 25px;
+    padding-top: 30px;
+    
+}
+.banner_caption p{
+    margin: 17px 0;
+    
+}
+.banner_caption h1{
+      margin-top: 27px;
+    margin-bottom: 19px;
+    
+}
+.form{
+    position: relative;
+    margin: 0 auto;
+    color: #E7CB2C;
+    width: 62%;
+    min-height: 80px;
+    background-color: #2A2E33;
+    margin-top:  47px;
+    overflow: hidden;
+}
+.form form{
+    float: left;
+    padding: 15px;
+    position: relative;
+}
+.form input{
+    width: 224px;
+    border-radius: 8px;
+    border: 1px solid;
+    height: 32px;
+    font-size: 19px;    
+}
+.form button{
+    background-color: #E7CB2C;
+    border: 1px solid #E7CB2C;
+    float: left;
+    margin-top: 35px;
+    height: 34px;
+    width: 158px;
+    font-size: 20px;
+    border-radius: 8px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+.package {
+    overflow: hidden;
+    min-height: 400px;
+    background-image: url(../images/paper_baground.jpg);
+    border-bottom: 1px solid black;
+}
+.book h1{
+    padding-top: 30px;
+}
+.book p{
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.book {
+        padding-top: 42px;
+    text-align: center;
+}
+
+.scrol {
+    overflow: hidden;
+        margin: 35px 0;
+    
+}
+.scrol.circle:first-child{
+    margin-left: 50px;
+}
+.scrolleft{
+    float: right;
+    width: 4%;
+    margin-top: 63px;
+}
+.scrolleft img{
+    width: 100%;
+}
+
+
+.circle{
+        border-radius: 100%;
+    border: 2px solid black;
+    width: 17%;
+    margin: 0px 54px;
+    height: 208px;
+    background-color: white;
+    float: right;
+}
+
+
+.scrolright{
+    float: right;
+    width: 4%;
+    margin-top: 63px;
+    padding-right: 86px;
+    
+}
+.scrolright img{
+    width: 100%;
+}
+
+.roomtypes {
+    padding-top: 55px;
+    text-align: center;
+    min-height: 710px;
+    background-image: url(../images/room_type_baground.jpg);
+}
+
+
+.room {
+    width: 30%;
+    overflow: hidden;
+    float: left;
+    margin: 10px 1%;
+}
+
+.roomimage {
+    width: 30%;
+}
+.roomimage img{
+    100%;
+}
+
+.roomdescription {
+    text-align: center;
+}
+.roomdescription h1{
+    font-weight: 500;
+    font-size: 22px;
+}
+.roomdescription p{
+    font-weight: 200;
+    font-size: 11px;
+}
+
+.roomicons {
+        margin-left: 84px;
+}
+.iconimage{
+    width: 7%;
+    float: left;
+    padding: 7px;
+}
+.iconimage img {
+    width: 100%;
+}
+
+.promo {
+    height: 187px;
+    background-color: #E7CB2C;
+}
+
+.promotext {
+    color: white;
+    float: left;
+    width: 70%;
+}
+.promotext h1{
+        margin: 28px 0;
+    font-size: 51px;
+    font-weight: 100;
+    font-family: 'Quicksand', sans-serif;
+}
+..promotext p{
+    
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.shadow {
+    width: 20%;
+    position: absolute;
+    right: 150px;
+    margin-top: -107px;
+}
+.shadow img{
+    width: 100%;
+}
+
+.footer {
+    min-height: 350px;
+    background-color: #333333;
+}
+
+.about {
+        width: 20%;
+    margin: 15px 0%;
+    margin-right: 3%;
+    float: left;
+}
+
+.news {
+        width: 20%;
+    margin: 15px 0%;
+    float: left;
+    margin-right: 3%;
+}
+
+.join {
+       width: 30%;
+    margin: 15px 0%;
+    float: left;
+    margin-right: 3%;
+}
+
+.members {
+     width: 20%;
+    margin: 15px 0%;
+    float: left;
+}
+.members input{
+    width: 198px;
+    height: 27px;
+    margin: 10px 0;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: #333333;
+}
+.footer_title{
+    font-weight: bold;
+    color: white;
+    font-size: 21px;
+    margin: 15px 0px;
+}
+.footer_text{
+        color: white;
+    font-size: 15px;
+}
